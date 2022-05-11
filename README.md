@@ -4,6 +4,12 @@ A updated version of **[Creative Js](https://github.com/ClassicMC-Studios)** <br
 >A mini game engine inspired by, **[24a2](https://24a2.routley.io/)** by, jamesroutley made as a test Idea thingy.
 >>c.Js is a tiny Js game engine thing inspired by, 24a2 that was designed to not be very large.
 It can be used in TypeScript orJavaScript.
+## To run
+> Must include<br/>
+> const cjs = new Cjs();<br/>
+>function onFrame(){
+>
+>}
 <details>
   <summary>Code</summary>  
   <b>Set up ~~ const cjs = new Cjs(); </b><br/>
