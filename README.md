@@ -1,23 +1,63 @@
-# c.Js-v2
-A updated version of **[Creative Js](https://github.com/ClassicMC-Studios)** <br/>
+# [c.Js v2]("github.com")
+>An updated version of **[creative js]("github.com")**
+
 ## ?
->A mini game engine inspired by, **[24a2](https://24a2.routley.io/)** by, jamesroutley made as a test Idea thingy.
->>c.Js is a tiny Js game engine thing inspired by, 24a2 that was designed to not be very large.
-It can be used in TypeScript orJavaScript.
-## To run
-> Must include<br/>
-> const cjs = new Cjs();<br/>
->function onFrame(){
->
->}
+<b>A mini game engine desinged with insparation from </b>**[24a2]("github.com")**
+
+## Required code
+>Update function
+
+```javascript
+function onFrame(){
+	//Runs every 13 miliseconds
+}
+```
+>Setup
+
+```javascript
+const cjs = new Cjs();
+```
 <details>
-  <summary>Code</summary>  
-  <b>Set up ~~ const cjs = new Cjs(); </b><br/>
-  cjs.clear(); "clears the screen"<br/>
-  cjs.dot(x,y,color); "Fills a dot with a color at the spesified x and y position"<br/>
-  cjs.bg(color); "clears the screen and then fills it with the color specified"<br/>
-  cjs.text(text); "writes text above the canvas"<br/>
-  cjs.end(); "ends the game file"<br/>
-  cjs.getRandomInt(max); "returns a random integer between 0 and the max"<br/>
-  cjs.hits(x,y,xx,yy); "will tell if a position and another position are the same"<br/>
+	<summary>Code</summary>
+	<b>cjs.dot(x,y,"color");<br/>
+	cjs.clear();<br/>
+	cjs.bg("color");<br/>
+	cjs.text("text");<br/>
+	cjs.end();<br/>
+	cjs.getRandomInt(max);<br/>
+	cjs.hits(x1,y1,x2,y2);<br/>
+	</b>
 </details>
+
+<!--
+# MDown Editor
+
+> GitHub Flavored Markdown Editor
+
+# Built with
+- **[marked](https://github.com/chjj/marked)** for Parsing Markdown
+- **[angular-marked](https://github.com/Hypercubed/angular-marked)** for easier usage of *marked*
+- **[highlight-js](https://github.com/isagalaev/highlight.js)** for code highlighting
+- **[github-markdown-css](https://github.com/sindresorhus/github-markdown-css)** for beautifying markdown output
+- **[highlight-js css](https://github.com/isagalaev/highlight.js/tree/master/src/styles)** for beautifying code output
+
+# Examples
+* Javascript
+
+```javascript
+function() {	
+  console.log("Hello There! Start Playing Around");
+}
+```
+
+* Bash
+
+```bash
+# step 1
+npm install
+```
+# How to Use
+- Clear the all codes on the left panel
+- Write some markdown codes there
+- Enjoy!
+-->
