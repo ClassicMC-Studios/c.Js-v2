@@ -9,7 +9,7 @@
 
 ```javascript
 function onFrame(){
-	//Runs every 13 miliseconds
+    //Runs every 13 miliseconds
 }
 ```
 >Setup
@@ -30,7 +30,7 @@ const cjs = new Cjs();
 </details>
 
 <!--
-# MDown Editor
+# MDown Edi
 
 > GitHub Flavored Markdown Editor
 
@@ -61,3 +61,4 @@ npm install
 - Write some markdown codes there
 - Enjoy!
 -->
+ 
