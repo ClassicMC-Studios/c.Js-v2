@@ -1,8 +1,8 @@
 # [c.Js v2]("github.com")
->An updated version of **[creative js]("github.com")**
+>An updated version of **[creative js](https://github.com/ClassicMC-Studios/c.Js)**
 
 ## ?
-<b>A mini game engine desinged with insparation from </b>**[24a2]("github.com")**
+<b>A mini game engine desinged with insparation from </b>**[24a2](https://github.com/jamesroutley/24a2)**
 
 ## Required code
 >Update function
